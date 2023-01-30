@@ -1,0 +1,392 @@
+.bookshelves-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 30px;
+  width: 90%;
+  max-width: 1110px;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .bookshelves-container {
+    padding-top: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.shelves-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .shelves-container {
+    width: 30%;
+    padding: 30px;
+    margin-right: 30px;
+    min-width: 230px;
+    max-width: 280px;
+    background-color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-search-input-container {
+    display: none;
+  }
+}
+
+.bookshelves-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #334155;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .bookshelves-text {
+    margin-top: 0px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.shelf-items-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .shelf-items-container {
+    flex-direction: column;
+  }
+}
+
+.header-and-books-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .header-and-books-container {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .book-shelf-header-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .book-shelf-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.desktop-search-input-container {
+  width: 50%;
+  min-width: 300px;
+}
+
+.bookshelf-header-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #334155;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #cbd5e1;
+  background-color: #edeff1;
+  border-radius: 3px;
+  max-width: 400px;
+}
+
+.search-input {
+  background-color: #ffffff;
+  color: #1e293b;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 8px 16px 8px 16px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  align-self: stretch;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input {
+    font-size: 16px;
+  }
+}
+
+.search-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0px 15px;
+}
+.search-icon {
+  font-size: 16px;
+  margin: 8px 10px;
+  color: #94a3b8;
+}
+
+@media screen and (min-width: 768px) {
+  .search-icon {
+    font-size: 18px;
+  }
+}
+
+.book-shelves-loader-container {
+  display: flex;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-shelves-failure-view-container {
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-shelves-failure-view-img {
+  width: 250px;
+  height: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-shelves-failure-view-img {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+.bookshelves-failure-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #475569;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .bookshelves-failure-description {
+    font-size: 24px;
+    line-height: 48px;
+  }
+}
+
+.bookshelves-try-again-btn {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 8px 16px;
+  background: #0284c7;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 87px;
+  height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .bookshelves-try-again-btn {
+    padding: 12px 24px;
+    border-radius: 12px;
+    width: 112px;
+    height: 48px;
+  }
+}
+
+.all-books-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  margin-bottom: 100px;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .all-books-container {
+    flex-direction: row;
+    margin-bottom: 100px;
+    padding-top: 30px;
+  }
+}
+
+.left-side-books-container {
+  min-height: 80vh;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .left-side-books-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .left-side-books-container {
+    width: 50%;
+  }
+}
+
+.right-side-books-container {
+  min-height: 80vh;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .right-side-books-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .right-side-books-container {
+    width: 50%;
+  }
+}
+
+.book-items-details-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.no-books-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.no-books-view-image {
+  width: 250px;
+  height: 170px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-books-view-image {
+    width: 470px;
+    height: 330px;
+  }
+}
+
+.no-books-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .no-books-description {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #334155;
+  }
+}
+
+/* dark theme */
+.no-books-dark-description {
+  color: #d3d3d3;
+}
+
+.book_shelves-failure-dark-description {
+  color: #d3d3d3;
+}
+@media screen and (min-width: 768px) {
+  .bookshelves-dark-bg {
+    background-color: #272727;
+  }
+}
+.book-shelves-dark-theme-heading {
+  color: #ffffff;
+}
+.bookshelf-dark-theme-heading {
+  color: #ffffff;
+}
+
+.search-input-container-dark {
+  background-color: #202020;
+  border: 1px solid #475569;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.search-input-dark {
+  background-color: #000000;
+  color: #cbd5e1;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 8px 16px 8px 16px;
+  font-size: 14px;
+  align-self: stretch;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-dark {
+    font-size: 16px;
+  }
+}
+
+.search-button-dark {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0px 15px;
+}
+
+.search-icon-dark {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 8px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-icon-dark {
+    font-size: 18px;
+  }
+}

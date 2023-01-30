@@ -1,0 +1,158 @@
+.favorite-item-bg {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 16px 0px #eaebed;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .favorite-item-bg {
+    margin-bottom: 32px;
+    padding-left: 36px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 48px;
+  }
+}
+
+.favorite-item-image {
+  width: 96px;
+  height: 116px;
+  border-radius: 4px;
+}
+
+.favorite-item-details-container {
+  margin-left: 16px;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .favorite-item-details-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 768px) {
+  .favorite-item-title-author-container {
+    width: 250px;
+  }
+}
+
+.favorite-item-title {
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #171f46;
+}
+
+@media screen and (min-width: 768px) {
+  .favorite-item-title {
+    font-size: 16px;
+  }
+}
+
+.favorite-item-author {
+  font-family: 'Inter';
+  font-size: 10px;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .favorite-item-author {
+    font-size: 12px;
+  }
+}
+
+.total-price-remove-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.favorite-book-status-text {
+  font-family: 'Inter';
+  font-size: 14px;
+  color: #334155;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .favorite-book-status-text {
+    font-size: 16px;
+  }
+}
+
+.favorite-book-status {
+  font-family: 'Inter';
+  font-size: 14px;
+  color: #0b69ff;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .favorite-book-status {
+    font-size: 16px;
+  }
+}
+
+.remove-btn {
+  font-family: 'Inter';
+  font-size: 12px;
+  color: #ffffff;
+  background-color: transparent;
+  line-height: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .remove-btn {
+    display: none;
+  }
+}
+
+.delete-btn {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .delete-btn {
+    display: none;
+  }
+}
+
+.favorite-book-item-nav-link {
+  text-decoration: none;
+}
+
+/* dark theme */
+
+.favorite-item-bg-dark-them {
+  background-color: #272727;
+  box-shadow: 0px 4px 16px 0px #505050;
+}
+
+.favorite-item-title {
+  color: #ffffff;
+}
+
+.favorite-item-dark-description {
+  color: #d3d3d3;
+}

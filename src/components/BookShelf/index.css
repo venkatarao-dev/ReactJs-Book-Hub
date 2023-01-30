@@ -1,0 +1,58 @@
+.shelf-item {
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .shelf-item {
+    margin-right: 0px;
+  }
+}
+
+.shelf-item-button {
+  background-color: transparent;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0284c7;
+  outline: none;
+  border: 1px solid #0284c7;
+  border-radius: 25px;
+  padding: 4px 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .shelf-item-button {
+    border: none;
+    padding: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    color: #475569;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+
+.active-shelf {
+  background-color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 25px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .active-shelf {
+    color: #0284c7;
+    background-color: transparent;
+    border: none;
+  }
+}
+
+/* dark theme */
+.shelf-item-dark {
+  color: #d3d3d3;
+}

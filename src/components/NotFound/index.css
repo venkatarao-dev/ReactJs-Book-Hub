@@ -1,0 +1,91 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 90%;
+  max-width: 1110px;
+  padding-top: 30px;
+  margin: auto;
+}
+
+.not-found-image {
+  width: 300px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    height: 300px;
+    width: 450px;
+  }
+}
+
+.not-found-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #334155;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+.not-found-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-container {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+}
+
+.go-back-home-link {
+  text-decoration: none;
+}
+
+.go-back-btn {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  background: #0284c7;
+  border-radius: 8px;
+  width: 132px;
+  height: 32px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .go-back-btn {
+    padding: 12px 24px;
+    width: 164px;
+    height: 48px;
+    border-radius: 12px;
+  }
+}

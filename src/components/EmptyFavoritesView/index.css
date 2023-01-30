@@ -1,0 +1,58 @@
+.favorites-empty-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.favorites-empty-img {
+  width: 180px;
+  height: 190px;
+}
+
+@media screen and (min-width: 768px) {
+  .favorites-empty-img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.favorites-empty-heading {
+  color: #1e293b;
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .favorites-empty-heading {
+    font-size: 32px;
+  }
+}
+
+.empty-view-find-books-btn {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 8px 16px;
+  color: #f8fafc;
+  background-color: #0284c7;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .empty-view-find-books-btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
+/*dark theme */
+
+.favorites-empty-heading-dark-theme {
+  color: #ffffff;
+}

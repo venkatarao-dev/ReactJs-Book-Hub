@@ -1,0 +1,71 @@
+.favorites-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .favorites-container {
+    min-height: 90vh;
+  }
+}
+
+.favorites-heading {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 700;
+  color: #3e4c59;
+}
+
+.favorites-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .favorites-content-container {
+    width: 80%;
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .favorites-heading {
+    font-size: 32px;
+  }
+}
+
+.remove-all-btn {
+  display: flex;
+  align-self: flex-end;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #0b69ff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .remove-all-btn {
+    font-size: 16px;
+  }
+}
+.favorites-list {
+  padding-left: 0px;
+}
+
+/** dark theme **/
+
+.favorites-heading-dark-theme {
+  color: #ffffff;
+}
+
+.favorites-dark-description-text {
+  color: #d3d3d3;
+}

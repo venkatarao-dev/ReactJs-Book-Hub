@@ -1,0 +1,190 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  background: #e5e5e5;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    flex-direction: row;
+  }
+}
+
+.login-desktop-image-container {
+  width: 50%;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .login-desktop-image-container {
+    display: none;
+  }
+}
+.login-desktop-img {
+  width: 100%;
+  background-size: cover;
+}
+
+.form-and-mobile-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  .form-and-mobile-image-container {
+    max-width: 480px;
+    height: 65vh;
+    margin: auto;
+  }
+}
+
+.login-mobile-image {
+  width: 200px;
+}
+.login-website-logo {
+  width: 140px;
+  height: 45px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 992px) {
+  .login-mobile-image {
+    display: none;
+  }
+  .login-website-logo {
+    margin-top: 0px;
+    width: 150px;
+    height: 50px;
+  }
+}
+.form-container {
+  width: 100%;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-mobile-image {
+    width: 250px;
+  }
+  .form-container {
+    max-width: 350px;
+  }
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5a7184;
+  margin-bottom: 4px;
+}
+
+.username-input-field {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #183b56;
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  height: 40px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.password-input-field {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #183b56;
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  height: 40px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.checkbox-input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.checkbox-input-field {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  cursor: pointer;
+}
+
+.login-button {
+  background: #0284c7;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .login-button {
+    font-family: 'Open Sans';
+  }
+}
+
+.error-message {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ef4444;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .error-message {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ef4444;
+    align-self: flex-start;
+  }
+}

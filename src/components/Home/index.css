@@ -1,0 +1,81 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 4px;
+  width: 90%;
+  max-width: 1110px;
+  background-color: #cadae3;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    padding-top: 12px;
+  }
+}
+
+.home-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+.home-description {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.find-books-mobile-button {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #f8fafc;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #0284c7;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .find-books-mobile-button {
+    display: none;
+  }
+}
+
+/* dark theme */
+
+.home-heading-dark-theme {
+  color: #ffffff;
+}
+.home-container-dark {
+  background-color: #272727;
+}
+
+.home-description-dark-theme {
+  color: #d3d3d3;
+}

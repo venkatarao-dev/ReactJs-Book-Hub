@@ -1,0 +1,32 @@
+.nav-menu-item {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-menu-item {
+    margin: 10px;
+    font-size: 16px;
+  }
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #64748b;
+  font-weight: 700;
+}
+
+/* dark theme*/
+.header-dark-theme-text {
+  color: #1ab00c;
+}
+.active-nav-link {
+  color: #0284c7;
+}
+.nav-link-active {
+  color: #0284c7;
+}
